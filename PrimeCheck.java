@@ -48,16 +48,15 @@ public class PrimeCheck {
         sc.close();
     }
 
-    // Function to check prime
     public static boolean isPrime(int num) {
         if (num <= 1) {
-            return false; // 0 and 1 are not prime
+            return false; 
         }
-        for (int i = 2; i <= Math.sqrt(num); i++) { // check till sqrt(num)
+        for (int i = 2; i <= Math.sqrt(num); i++) { 
             if (num % i == 0) {
-                return false; // divisible → not prime
+                return false; 
             }
         }
-        return true; // no divisors → prime
+        return true; 
     }
 }
