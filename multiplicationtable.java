@@ -13,6 +13,6 @@ public class multiplicationtable {
                 System.out.println(n + " x " + i + " = " + (n * i));
             }
         }
-        sc.close();
+        
     }
 }
