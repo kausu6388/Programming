@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class sumOFitsDIGITS {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         int n = in. nextInt();
         int sum = 0;
